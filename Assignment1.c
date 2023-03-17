@@ -35,5 +35,4 @@ int main()
  printf("\n Total Number of Negative Numbers in this Array = %d ", Negative_Count);
  return 0;
 }
-  return 0;
-}
+
