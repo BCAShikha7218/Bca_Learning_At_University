@@ -2,6 +2,20 @@
 
 int main() 
 {
-  
+   #include<stdio.h>
+int main(){
+  int n,count=0;;
+  while(1){
+  printf("Enter the number\n");
+  scanf("%d",&n);
+    if(n%8==0)
+    {      count++;
+    }else
+    {
+      printf("The number of valid numbers entered is %d",count);
+      break;
+    }
+  }
   return 0;
 }
+
